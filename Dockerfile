@@ -1,6 +1,6 @@
 # vim: set sw=4 et :
 FROM centos:7
-ARG BEANCOUNT_IMPORT_VERSION
+ARG BEANCOUNT_IMPORT_VERSION=1.3.0
 
 RUN yum -y install epel-release
 RUN yum -y install python36 python36-pip
